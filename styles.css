@@ -1,0 +1,130 @@
+@media only screen and (min-width:1000px){
+body { display: flex;
+background-color:hsl(30, 38%, 92%);
+justify-content: center;
+align-items:center;
+}
+.attribution { font-size: 11px; text-align: center;
+ color: hsl(228, 45%, 44%);
+ align-self: flex-end; 
+ margin-top:50%}
+.main-contenor{ display:flex;
+flex-direction: row;
+background-color:#ffffff;
+border-radius: 20px;
+object-fit: cover;
+height:29vw;
+width: 37vw;
+margin-left:10vw
+}
+#deskimg{border-radius:20px 0 0 20px;
+max-height:29vw}
+.written-content{ display: flex;
+flex-flow: column wrap;
+justify-content:space-around;
+padding:1.5vw;
+}
+#typetitle{font-family:'Montserrat';
+font-size:1vw;
+color:hsl(228, 12%, 48%));
+letter-spacing:4px}
+#heading{font-family: 'Fraunces';
+font-weight: 700;
+color:hsl(212, 21%, 14%);
+font-size:2vw
+}
+#caption{font-family:'Fraunces';
+font-weight: 500;
+font-size: 1vw;
+color:hsl(228, 12%, 48%);
+}
+	ins{
+	font-family:'Fraunces';
+	color:hsl(158, 36%, 37%);
+	font-size:1.5vw;
+	}
+	del{
+	font-family:'Fraunces';
+	font-size: 0.75vw;
+	color:hsl(228, 12%, 48%);
+	}
+.kart{ align-self: center;
+background-color:hsl(158, 36%, 37%);
+color:#ffffff;
+font-family: 'Fraunces';
+height:2.5vw;
+border-radius:5px;
+border: none;
+text-align: center;
+width: 15vw;
+margin-top:0.25vw;
+font-size: 1vw
+}
+}
+@media only screen and (max-width:999px){
+body { display: flex;
+background-color:hsl(30, 38%, 92%);
+justify-content: center;
+align-items:center;
+}
+.attribution { display:none;}
+.main-contenor{ display:flex;
+flex-direction: column;
+background-color:#ffffff;
+border-radius: 5px;
+object-fit: cover;
+height:135vw;
+width: 71vw;
+margin-left:none;
+align-items: center
+}
+#deskimg{border-radius:5px 5px 0 0;
+max-height:50vw}
+.written-content{ display: flex;
+flex-flow: column wrap;
+justify-content:space-around;
+padding:3.5vw;
+}
+#typetitle{font-family:'Montserrat';
+font-size:2vw;
+color:hsl(228, 12%, 48%));
+letter-spacing:5px}
+#heading{font-family: 'Fraunces';
+font-weight: 700;
+color:hsl(212, 21%, 14%);
+font-size:6vw
+}
+#caption{font-family:'Fraunces';
+font-weight: 500;
+font-size: 3vw;
+color:hsl(228, 12%, 48%);
+line-height:5vw
+}
+	ins{
+	font-family:'Fraunces';
+	color:hsl(158, 36%, 37%);
+	font-size:4vw;
+	}
+	del{
+	font-family:'Fraunces';
+	font-size: 2vw;
+	color:hsl(228, 12%, 48%);
+	}
+.kart{ align-self: center;
+background-color:hsl(158, 36%, 37%);
+color:#ffffff;
+font-family: 'Fraunces';
+height:9vw;
+border-radius:5px;
+border: none;
+text-align: center;
+width: 62vw;
+margin-top:5vw;
+font-size: 3vw
+}
+}
+.kart:hover{
+filter: saturate(75%)
+}
+.kart>span {color:white;}
+.kart> img{color:white;}
