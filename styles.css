@@ -124,7 +124,5 @@ font-size: 3vw
 }
 }
 .kart:hover{
-filter: saturate(75%)
+background-color:hsl(158, 37%, 31%);
 }
-.kart>span {color:white;}
-.kart> img{color:white;}
